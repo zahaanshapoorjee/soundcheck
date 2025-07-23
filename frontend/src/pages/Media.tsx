@@ -6,6 +6,8 @@ import post2 from "../assets/posts/post2.jpg"
 import post3 from "../assets/posts/post3.jpg"
 
 const Media = () => {
+  // TO-DO: FETCH THIS FROM BACKEND, NEED TO DECIDE BETWEEN AWS DATABASE OR GOOGLE SHEET, AWS SEEMS OVERKILL
+  
   const featuredPost = {
     id: 1,
     title: 'Faheem Abdullah now exclusively with SoundCheck!',

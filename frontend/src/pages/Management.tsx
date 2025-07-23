@@ -152,7 +152,7 @@ const Management = () => {
                 We're always scouting for the next big thing in Indian hip hop
               </p>
               <button className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-10 py-4 rounded-full font-black text-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-2xl">
-                <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}>Submit Your Demo</span>
+                <a href='/submissions'><span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}>Submit Your Demo</span></a>
               </button>
             </div>
           </div>
