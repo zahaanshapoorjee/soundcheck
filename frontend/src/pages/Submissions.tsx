@@ -73,7 +73,7 @@ const Submissions = () => {
                 className="text-5xl md:text-6xl font-black text-white mb-8"
                 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
               >
-                Submission Received! 🎉
+                Submission Received! 
               </h1>
               <p 
                 className="text-2xl text-green-300 mb-8 font-bold"
@@ -85,7 +85,7 @@ const Submissions = () => {
                 className="text-xl text-gray-300 mb-12"
                 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}
               >
-                Our A&R team will review your submission and get back to you within 48 hours. If we're feeling it, expect a call! 📞
+                Our A&R team will review your submission and get back to you within 48 hours. If we're feeling it, expect a call! 
               </p>
               <button
                 onClick={() => setIsSubmitted(false)}
@@ -111,7 +111,7 @@ const Submissions = () => {
               className="text-5xl md:text-7xl font-black text-white mb-8"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
             >
-              Submissions 🚀
+              Submissions 
             </h1>
             <p 
               className="text-2xl text-purple-300 mb-6 font-bold"
@@ -123,7 +123,7 @@ const Submissions = () => {
               className="text-xl text-gray-300 max-w-4xl mx-auto"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}
             >
-              This is your shot! Send us your best work and let's see if you've got what it takes to be part of India's most elite hip hop collective 🎯
+              This is your shot! Send us your best work and let's see if you've got what it takes to be part of India's most elite hip hop collective 
             </p>
           </div>
 
@@ -134,7 +134,7 @@ const Submissions = () => {
                 className="text-3xl font-black text-white mb-8"
                 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
               >
-                Pro Tips 💡
+                Pro Tips
               </h2>
               
               <div className="space-y-6">
@@ -165,7 +165,7 @@ const Submissions = () => {
                   className="text-3xl font-black text-white mb-8"
                   style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
                 >
-                  Submit Your Demo 🎵
+                  Submit Your Demo 
                 </h2>
                 
                 <form onSubmit={handleSubmit} className="space-y-8">
@@ -341,7 +341,7 @@ const Submissions = () => {
                             className="text-white font-black mb-3 text-xl"
                             style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
                           >
-                            {file ? file.name : 'Drop your fire tracks here! 🔥'}
+                            {file ? file.name : 'Drop your fire tracks here!'}
                           </p>
                           <p 
                             className="text-gray-400 font-bold"

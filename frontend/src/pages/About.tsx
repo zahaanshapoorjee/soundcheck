@@ -46,54 +46,19 @@ const About = () => {
               className="text-2xl text-purple-300 mb-6 font-bold"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700 }}
             >
-              We're not just an agency - we're the architects of India's hip hop revolution! 🎤
+              We're not just an agency - we're the architects of India's hip hop revolution! 
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
-            {/* Image/Gallery */}
-            <div className="space-y-8">
-              <div className="relative group">
-                <img
-                  src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Hip hop artist performing"
-                  className="w-full h-96 object-cover rounded-3xl shadow-2xl group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/80 to-transparent rounded-3xl"></div>
-                <div className="absolute bottom-6 left-6 text-white">
-                  <p className="text-2xl font-black" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}>
-                    LIVE ENERGY 🔥
-                  </p>
-                </div>
-              </div>
-              
-              <div className="grid grid-cols-2 gap-6">
-                <div className="relative group">
-                  <img
-                    src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&w=400"
-                    alt="Recording studio"
-                    className="w-full h-40 object-cover rounded-2xl group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent rounded-2xl"></div>
-                </div>
-                <div className="relative group">
-                  <img
-                    src="https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=400"
-                    alt="Live performance"
-                    className="w-full h-40 object-cover rounded-2xl group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-green-900/80 to-transparent rounded-2xl"></div>
-                </div>
-              </div>
-            </div>
 
             {/* Mission and Story */}
-            <div className="text-white">
+            <div className="text-white mt-8">
               <h2 
                 className="text-4xl font-black mb-8 leading-tight"
                 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
               >
-                Our Story 📖
+                Our Story 
               </h2>
               <p 
                 className="text-lg text-gray-300 mb-8 leading-relaxed"
@@ -111,7 +76,7 @@ const About = () => {
               </p>
 
               {/* Stats */}
-              <div className="grid grid-cols-2 gap-6 mb-12">
+              {/* <div className="grid grid-cols-2 gap-6 mb-12">
                 {stats.map((stat, index) => (
                   <div key={index} className="text-center p-6 bg-white/10 rounded-2xl backdrop-blur-sm border border-purple-500/20 hover:bg-white/20 transition-all duration-300">
                     <stat.icon className="w-12 h-12 text-purple-400 mx-auto mb-4" />
@@ -129,8 +94,46 @@ const About = () => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </div> */}
+
             </div>
+
+                        {/* Image/Gallery */}
+            <div className="space-y-8">
+              <div className="relative group">
+                <img
+                  src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Hip hop artist performing"
+                  className="w-full h-96 object-cover rounded-3xl shadow-2xl group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/80 to-transparent rounded-3xl"></div>
+                <div className="absolute bottom-6 left-6 text-white">
+                  <p className="text-2xl font-black" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}>
+                    LIVE ENERGY 🔥
+                  </p>
+                </div>
+              </div>
+              
+              {/* <div className="grid grid-cols-2 gap-6">
+                <div className="relative group">
+                  <img
+                    src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    alt="Recording studio"
+                    className="w-full h-40 object-cover rounded-2xl group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent rounded-2xl"></div>
+                </div>
+                <div className="relative group">
+                  <img
+                    src="https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    alt="Live performance"
+                    className="w-full h-40 object-cover rounded-2xl group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-green-900/80 to-transparent rounded-2xl"></div>
+                </div>
+              </div> */}
+            </div>
+
           </div>
 
           {/* Values Section */}
@@ -140,7 +143,7 @@ const About = () => {
                 className="text-5xl md:text-6xl font-black text-white mb-8"
                 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
               >
-                What We Stand For 💯
+                What We Stand For 
               </h2>
               <p 
                 className="text-xl text-gray-300 max-w-3xl mx-auto"
@@ -180,7 +183,7 @@ const About = () => {
               className="text-5xl md:text-6xl font-black text-white mb-8"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
             >
-              The Squad Behind the Magic ✨
+              The Squad Behind the Magic 
             </h2>
             <p 
               className="text-2xl text-gray-300 mb-16 max-w-4xl mx-auto"
@@ -195,7 +198,7 @@ const About = () => {
               className="text-3xl font-black text-white mb-6"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
             >
-              Want to Join Our Team? 🤝
+              Want to Join Our Team? 
             </h3>
             <p 
               className="text-lg text-gray-300 mb-8"

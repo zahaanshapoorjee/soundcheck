@@ -36,7 +36,7 @@ const Home = () => {
               className="text-xl md:text-2xl text-gray-300 mb-16 max-w-3xl mx-auto leading-relaxed"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}
             >
-              Next-generation music agency committed to shaping the future of Indian music. 🔥
+              Next-generation music agency committed to shaping the future of Indian music. 
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -49,7 +49,7 @@ const Home = () => {
               </Link>
               <button className="group border-3 border-white text-white px-10 py-5 rounded-full font-black text-xl hover:bg-white hover:text-black transition-all duration-300 flex items-center space-x-3 shadow-2xl">
                 <Play className="w-6 h-6" />
-                <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}>Watch Reel</span>
+                <a href='https://www.instagram.com/soundcheck.co.in/' target='_blank'><span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}>View Instagram</span></a>
               </button>
             </div>
           </div>

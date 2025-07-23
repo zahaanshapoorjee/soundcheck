@@ -70,7 +70,7 @@ const Management = () => {
               className="text-5xl md:text-7xl font-black text-white mb-8"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
             >
-              SC Management 👑
+              SoundCheck Mgmt
             </h1>
             <p 
               className="text-2xl text-purple-300 mb-6 font-bold"
@@ -82,7 +82,7 @@ const Management = () => {
               className="text-xl text-gray-300 max-w-4xl mx-auto"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}
             >
-              Our roster isn't just a list of artists - it's a family of game-changers, rule-breakers, and culture creators who are taking desi hip hop to the next level 🚀
+              Our roster isn't just a list of artists - it's a family of game-changers, rule-breakers, and culture creators who are taking desi hip hop to the next level. 
             </p>
           </div>
 
@@ -143,7 +143,7 @@ const Management = () => {
                 className="text-4xl font-black text-white mb-6"
                 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
               >
-                Want to Join This Elite Squad? 🎯
+                Want to Join This Elite Squad?
               </h2>
               <p 
                 className="text-xl text-gray-300 mb-8"

@@ -78,7 +78,7 @@ const Contact = () => {
               className="text-5xl md:text-7xl font-black text-white mb-8"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
             >
-              Contact Us 📞
+              Contact Us 
             </h1>
             <p 
               className="text-2xl text-purple-300 mb-6 font-bold"
@@ -90,7 +90,7 @@ const Contact = () => {
               className="text-xl text-gray-300 max-w-4xl mx-auto"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}
             >
-              Whether you're an artist, a brand, or just someone who loves hip hop culture - we want to hear from you! Drop us a line and let's make magic happen 🎯
+              Whether you're an artist, a brand, or just someone who loves hip hop culture - we want to hear from you! Drop us a line and let's make magic happen 
             </p>
           </div>
 
@@ -101,7 +101,7 @@ const Contact = () => {
                 className="text-3xl font-black text-white mb-8"
                 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
               >
-                Send us a message 💬
+                Send us a message 
               </h2>
               
               <form onSubmit={handleSubmit} className="space-y-8">
@@ -220,7 +220,7 @@ const Contact = () => {
                   className="text-3xl font-black text-white mb-8"
                   style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
                 >
-                  Get in touch 📍
+                  Get in touch
                 </h2>
                 
                 <div className="space-y-8">
@@ -257,9 +257,9 @@ const Contact = () => {
                         className="text-gray-300 text-lg"
                         style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}
                       >
-                        Main: +91 98765 43210<br />
-                        Studio: +91 87654 32109<br />
-                        Bookings: +91 76543 21098
+                        Main: +91 98104 07176<br />
+                        Studio: +91 98104 07176<br />
+                        Bookings: +91 98104 07176
                       </p>
                     </div>
                   </div>
@@ -312,7 +312,7 @@ const Contact = () => {
                   className="text-3xl font-black text-white mb-8"
                   style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
                 >
-                  Follow the Movement 📱
+                  Follow the Movement 
                 </h2>
                 
                 <div className="space-y-6">
@@ -322,7 +322,7 @@ const Contact = () => {
                       className="font-bold text-xl"
                       style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700 }}
                     >
-                      @soundcheck.official
+                      @soundcheck.co.in
                     </span>
                   </div>
                   <div className="flex items-center space-x-4 text-gray-300 hover:text-blue-400 transition-colors cursor-pointer">
@@ -350,7 +350,7 @@ const Contact = () => {
                     className="text-xl font-black text-white mb-6"
                     style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
                   >
-                    Need Immediate Help? 🚨
+                    Need Immediate Help? 
                   </h3>
                   <div className="space-y-4">
                     <button className="w-full bg-green-600 text-white py-4 rounded-xl font-black text-lg hover:bg-green-700 transition-colors flex items-center justify-center space-x-3">

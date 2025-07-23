@@ -83,7 +83,7 @@ const Live = () => {
               className="text-5xl md:text-7xl font-black text-white mb-8"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
             >
-              SC Live 🎤
+              SoundCheck Live 
             </h1>
             <p 
               className="text-2xl text-purple-300 mb-6 font-bold"
@@ -95,7 +95,7 @@ const Live = () => {
               className="text-xl text-gray-300 max-w-4xl mx-auto"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}
             >
-              We don't just organize events - we create experiences that people talk about for years. From intimate cyphers to massive festivals, SC Live brings the heat! 🔥
+              We don't just organize events - we create experiences that people talk about for years. From intimate cyphers to massive festivals, SC Live brings the heat! 
             </p>
           </div>
 
@@ -105,7 +105,7 @@ const Live = () => {
               className="text-4xl font-black text-white mb-12 text-center"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
             >
-              Upcoming Shows That'll Blow Your Mind 🤯
+              Upcoming Shows That'll Blow Your Mind 
             </h2>
             
             <div className="relative">
@@ -246,7 +246,7 @@ const Live = () => {
               className="text-4xl font-black text-white mb-12 text-center"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
             >
-              The Numbers That Prove We're Killing It 📊
+              The Numbers That Prove We're Killing It 
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

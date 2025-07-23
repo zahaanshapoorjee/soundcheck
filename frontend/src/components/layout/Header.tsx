@@ -17,8 +17,8 @@ const Header = () => {
     { name: 'SC Mgmt', href: '/management', description: 'Artist Management' },
     { name: 'SC Live', href: '/live', description: 'Live Events' },
     { name: 'SC Media', href: '/media', description: 'Media Coverage' },
-    { name: 'SC Records', href: '/records', description: 'Record Label' },
-    { name: 'SC Studio', href: '/studio', description: 'Studio Services' },
+    // { name: 'SC Records', href: '/records', description: 'Record Label' },
+    // { name: 'SC Studio', href: '/studio', description: 'Studio Services' },
   ];
 
   const additionalItems = [

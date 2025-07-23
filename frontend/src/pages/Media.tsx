@@ -1,65 +1,46 @@
 import React from 'react';
 import { Calendar, ExternalLink, Eye, Heart, TrendingUp, Video, Newspaper } from 'lucide-react';
 import NebulaBackground from '../components/layout/NebulaBackground';
+import post1 from "../assets/posts/post1.jpg"
+import post2 from "../assets/posts/post2.jpg"
+import post3 from "../assets/posts/post3.jpg"
 
 const Media = () => {
   const featuredPost = {
     id: 1,
-    title: 'SoundCheck Artists DOMINATE Hip Hop Awards 2025! 🏆',
-    excerpt: 'YOOO! Our squad absolutely DESTROYED the competition at the annual Indian Hip Hop Awards, taking home 8 major awards including Artist of the Year, Producer of the Year, and Best Collaboration. This is what happens when you put real talent first! 🔥',
-    image: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800',
-    date: '2025-01-15',
+    title: 'Faheem Abdullah now exclusively with SoundCheck!',
+    excerpt: 'Soundcheck is thrilled to announce the exclusive signing of Faheem Abdullah, a multifaceted artist hailing from Kashmir, India. Renowned as a singer-songwriter, poet and filmmaker, Faheem has captivated audiences worldwide with his unique blend of genres.',
+    image: post1,
+    date: '2025-07-21',
     views: '25K',
     likes: '1.2K',
-    category: 'Awards'
+    category: 'Awards',
+    link: 'https://www.instagram.com/p/DMW5NTxIU9O/'
   };
 
   const newsFeed = [
     {
       id: 2,
-      title: 'MC Rhythm Signs MASSIVE Label Deal with Universal Music India! 💰',
-      excerpt: 'Our boy MC Rhythm just secured the bag! This distribution deal is going to take his music to every corner of the globe.',
-      date: '2025-01-12',
+      title: 'Arslan Nizami now exclusively with SoundCheck!',
+      excerpt: 'SoundCheck is proud to welcome Arslan Nizami to our roster of groundbreaking talent. A genre-defying singer, songwriter, and composer from India, Arslan is known for his soul-stirring fusion of indie, folk, and semi-classical sounds, paired with evocative storytelling and poetic lyricism.',
+      image: post2,
+      date: '2025-07-22',
       views: '15K',
       likes: '890',
-      category: 'Business'
+      category: 'Business',
+      link: 'https://www.instagram.com/p/DMW5UiuIKiv/'
     },
     {
       id: 3,
-      title: 'SC Studio Expansion: New Facilities Are INSANE! 🎛️',
-      excerpt: 'We just unveiled our brand new state-of-the-art recording facilities and they are absolutely mind-blowing. Book your sessions now!',
-      date: '2025-01-10',
+      title: 'Maneet Oberoi now the official legal counsel of SoundCheck',
+      excerpt: 'We are excited to announce that Maneet Oberoi now the official legal counsel of SoundCheck',
+      image: post3,
+      date: '2025-07-22',
       views: '8.5K',
       likes: '456',
-      category: 'Studio'
+      category: 'Studio',
+      link: 'https://www.instagram.com/p/DMX4t9tIY0A/'
     },
-    {
-      id: 4,
-      title: 'Lyrical Queen Featured in Rolling Stone India Cover Story! 📰',
-      excerpt: 'Our queen graces the cover of Rolling Stone India with an exclusive interview about breaking barriers and changing the game.',
-      date: '2025-01-08',
-      views: '12K',
-      likes: '723',
-      category: 'Press'
-    },
-    {
-      id: 5,
-      title: 'Mumbai Hip Hop Festival Lineup REVEALED - It\'s STACKED! 🎪',
-      excerpt: 'The biggest hip hop festival in India just announced their lineup and SoundCheck artists are headlining every single day!',
-      date: '2025-01-05',
-      views: '20K',
-      likes: '1.5K',
-      category: 'Events'
-    },
-    {
-      id: 6,
-      title: 'Beat Master Wins Producer of the Year - AGAIN! 🥇',
-      excerpt: 'For the third year running, our sonic genius Beat Master takes home the top producer award. The man is simply unstoppable!',
-      date: '2025-01-03',
-      views: '9.2K',
-      likes: '567',
-      category: 'Awards'
-    }
   ];
 
   const getCategoryColor = (category: string) => {
@@ -90,7 +71,7 @@ const Media = () => {
               className="text-5xl md:text-7xl font-black text-white mb-8"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
             >
-              SC Media 📺
+              SoundCheck Media 
             </h1>
             <p 
               className="text-2xl text-red-300 mb-6 font-bold"
@@ -102,7 +83,7 @@ const Media = () => {
               className="text-xl text-gray-300 max-w-4xl mx-auto"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}
             >
-              Stay plugged into the SoundCheck universe with exclusive content, breaking news, and stories that matter in the Indian hip hop scene 🎬
+              Stay plugged into the SoundCheck universe with exclusive content, breaking news, and stories that matter in the Indian hip hop scene 
             </p>
           </div>
 
@@ -154,7 +135,7 @@ const Media = () => {
                           {featuredPost.date}
                         </span>
                       </div>
-                      <div className="flex items-center space-x-2">
+                      {/* <div className="flex items-center space-x-2">
                         <Eye className="w-5 h-5" />
                         <span 
                           className="font-bold"
@@ -162,8 +143,8 @@ const Media = () => {
                         >
                           {featuredPost.views}
                         </span>
-                      </div>
-                      <div className="flex items-center space-x-2">
+                      </div> */}
+                      {/* <div className="flex items-center space-x-2">
                         <Heart className="w-5 h-5" />
                         <span 
                           className="font-bold"
@@ -171,14 +152,15 @@ const Media = () => {
                         >
                           {featuredPost.likes}
                         </span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
-                  
+                  <a href={featuredPost.link} target='_blank'>
                   <button className="bg-gradient-to-r from-red-600 to-orange-600 text-white px-8 py-4 rounded-full font-black text-lg hover:from-red-700 hover:to-orange-700 transition-all duration-300 flex items-center space-x-3 w-fit transform hover:scale-105">
                     <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}>Read Full Story</span>
                     <ExternalLink className="w-5 h-5" />
                   </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -190,14 +172,15 @@ const Media = () => {
               className="text-4xl font-black text-white mb-12"
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}
             >
-              Latest News & Updates 📰
+              Latest News & Updates 
             </h2>
             
             <div className="space-y-8">
               {newsFeed.map((post) => (
+                <a href={post.link} target='_blank'>
                 <div
                   key={post.id}
-                  className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 cursor-pointer transform hover:scale-[1.02] border border-red-500/20"
+                  className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 cursor-pointer transform hover:scale-[1.02] border border-red-500/20 mb-4"
                 >
                   <div className="flex items-start space-x-6">
                     {/* News Image */}
@@ -205,7 +188,7 @@ const Media = () => {
                       <img
                         src={post.image}
                         alt={post.title}
-                        className="w-24 h-24 object-cover rounded-xl"
+                        className="w-48 h-48 object-cover rounded-xl"
                       />
                     </div>
                     
@@ -225,7 +208,7 @@ const Media = () => {
                               {post.date}
                             </span>
                           </div>
-                          <div className="flex items-center space-x-1">
+                          {/* <div className="flex items-center space-x-1">
                             <Eye className="w-4 h-4" />
                             <span 
                               className="font-bold"
@@ -242,7 +225,7 @@ const Media = () => {
                             >
                               {post.likes}
                             </span>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                       
@@ -266,12 +249,13 @@ const Media = () => {
                     </div>
                   </div>
                 </div>
+                </a>
               ))}
             </div>
           </div>
 
           {/* Media Kit CTA */}
-          <div className="mt-20 text-center">
+          {/* <div className="mt-20 text-center">
             <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-12 border border-red-500/20">
               <div className="flex justify-center mb-6">
                 <div className="flex space-x-4">
@@ -295,7 +279,7 @@ const Media = () => {
                 <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 900 }}>Download Media Kit</span>
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
